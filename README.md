@@ -13,17 +13,22 @@ First, clone the repository from GitHub:
 ```sh
 git clone https://github.com/TungTSon/AIO_Wk4_Chatbot.git
 cd AIO_Wk4_Chatbot
-
+```
 
 ### 2. Install Required Dependencies
 Install the necessary dependencies. It is recommended to use either virtual environment or conda to manage your packages:
-
+```sh
 conda create --name chatbot-env python=3.10
 conda activate chatbot-env
 pip install -r requirements.txt
+```
 ### 3. Sign Up for Hugging Face
-You need to sign up for an account on Hugging Face to use HugChat. You can sign up here: [Hugging Face Sign Up](https://huggingface.co/chat/)
+You need to sign up for an account on Hugging Face to use HugChat. You can sign up here:
+```sh
+https://huggingface.co/chat/
+```
 
 ### 4. Run the Chatbot
-
+```sh
 Now, you can run the chatbot: streamlit run chatbot.py
+```
