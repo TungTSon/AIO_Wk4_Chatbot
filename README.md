@@ -1,16 +1,19 @@
-## AIO - Week 4: Chatbot using Hugchat and streamlit
+# AIO - Week 4: Chatbot using HugChat and Streamlit
 
-This is a small chatbot project using the Hugging Face HugChat model.
+This is a small chatbot project using the Hugging Face HugChat model and Streamlit for the interface.
 
-### Installation and Setup Instructions
+## Installation and Setup Instructions
 
 Follow these steps to set up and run the chatbot on your local machine.
 
 ### 1. Clone the Repository
 
 First, clone the repository from GitHub:
+
+```sh
 git clone https://github.com/TungTSon/AIO_Wk4_Chatbot.git
 cd AIO_Wk4_Chatbot
+
 
 ### 2. Install Required Dependencies
 Install the necessary dependencies. It is recommended to use either virtual environment or conda to manage your packages:
